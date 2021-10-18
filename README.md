@@ -8,5 +8,5 @@ Before opening the notebook, you need to start a docker and do some port mapping
 3. Tap Win+R and run `ssh -N -f -L localhost:xxxx:localhost:xxxx -p 22 user_ID@x.x.x.x`. `xxxx` is the port you used in step 1, `user_ID` is you ID to access to the server, and `x.x.x.x`is the server IP address.
 4. In your host browser, please input `http://localhost:8889/`
 
-Now you can open the .ipynb file. Please run every cell of this notebook.
+Now you can open the `mnist_int8.ipynb` file. Please run every cell of this notebook.
 Then, please finish the questions and TODO tasks in this notebook.
