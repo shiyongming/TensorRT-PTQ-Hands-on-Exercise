@@ -34,7 +34,7 @@ TRT_LOGGER = trt.Logger()
 
 
 def check_accuracy(context, batch_size, test_set, test_labels):
-    inputs, outputs, bindings, stream = common.allocate_buffers(context.engine)
+    inputs, outputs, bindings, stream = common.allocate_buffers(context)
 
     num_correct = 0
     num_total = 0
